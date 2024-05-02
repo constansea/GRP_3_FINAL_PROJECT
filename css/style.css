@@ -60,7 +60,15 @@ h3 {
 /*unique features*/
 
 .unique_search {
-    display: flex;
+    padding: 20px 0px;
+}
+
+.appFeatures {
+    padding-bottom: 20px;
+}
+
+.ratingIcons {
+    padding: 20px 0px;
 }
 
 /*partnered brands*/
