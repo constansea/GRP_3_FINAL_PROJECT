@@ -1,24 +1,23 @@
 
 /*main navbar*/
-.nav-link::after {
+.nav-link {
+    position: relative;
+  }
+
+  .nav-link::after {
     content: '';
-    opacity: 0;
-    transition: all 0.2s;
-    height: 3px;
-    width: 100%;
-    background-color: #E65F5C;
     position: absolute;
     bottom: 0;
     left: 0;
-}
+    width: 100%;
+    height: 5px;
+    background-color: transparent;
+    transition: background-color .8s;
+  }
 
-.nav-link:hover::after {
-    opacity: 1;
-}
-
-.nav-link:active {
-    opacity: 1;
-}
+  .nav-link.active::after {
+    background-color: #E65F5C; /* Change this to your desired indicator color */
+  }
 
 .navbar-brand {
     font-size: 19px;
