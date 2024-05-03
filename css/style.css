@@ -59,6 +59,9 @@ h1.h1logo {
     font-size: 32px;
 }
 
+.h4 {
+    color: #E65F5C !important;
+}
 /*Hero Image + Intro*/
 
 
@@ -95,6 +98,20 @@ h1.h1logo {
     max-height: 150px;
     padding: 30px;
 }
+
+/*card image*/
+.card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-img {
+    flex-grow: 1;
+    object-fit: cover;
+  }
+  
+  
+
 
 /*footer*/
 
