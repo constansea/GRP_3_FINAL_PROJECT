@@ -13,6 +13,7 @@
     height: 5px;
     background-color: transparent;
     transition: background-color .8s;
+    border-radius: 100px;
 }
 
 .nav-link.active::after {
@@ -37,6 +38,7 @@
 .nav-link {
     font-size: 19px;
 }
+
 
 /*text + styles*/
 p {
