@@ -40,7 +40,7 @@
 
 /*text + styles*/
 p {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 h3 {
@@ -59,8 +59,12 @@ h1.h1logo {
     font-size: 32px;
 }
 
-.h4 {
+h4 {
     color: #E65F5C !important;
+}
+
+h6 {
+    font-size: 20px;
 }
 /*Hero Image + Intro*/
 
@@ -115,3 +119,15 @@ h1.h1logo {
 
 /*footer*/
 
+.custom-footer {
+    background-color: #0F0326;
+    color: white;
+}
+
+.text-body-secondary {
+    color: white !important;
+}
+
+.custom-icon {
+    fill: white;
+}
