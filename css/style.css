@@ -4,7 +4,7 @@
     position: relative;
   }
 
-  .nav-link::after {
+.nav-link::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -13,11 +13,11 @@
     height: 5px;
     background-color: transparent;
     transition: background-color .8s;
-  }
+}
 
-  .nav-link.active::after {
+.nav-link.active::after {
     background-color: #E65F5C; /* Change this to your desired indicator color */
-  }
+}
 
 .navbar-brand {
     font-size: 19px;
@@ -43,9 +43,16 @@ p {
     font-size: 16px;
 }
 
+
 h3 {
-    font-size: 23px;
+    font-size: 26px;
     font-weight: 500;
+}
+
+h3.tagline {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 19px;
 }
 
 h1.h1logo {
@@ -74,7 +81,24 @@ h6 {
     font-size: 20px;
     font-weight: 400;
 }
+
+/*buttons*/
+
+.btn-outline-primary {
+    --bs-btn-color: #E65F5C;
+    --bs-btn-border-color: #E65F5C;
+    --bs-btn-hover-bg: #E65F5C;
+    --bs-btn-hover-border-color: #E65F5C;
+    --bs-btn-active-bg: #FF4512;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-font-size: 1.05rem;
+    --bs-btn-border-radius: 100px;
+}
+
 /*Hero Image + Intro*/
+
+
+
 
 
 /*unique features*/
@@ -121,10 +145,10 @@ h6 {
     flex-grow: 1;
     object-fit: cover;
   }
-  
-  
 
+/*blog images*/
 
+  
 /*footer*/
 
 .custom-footer {
