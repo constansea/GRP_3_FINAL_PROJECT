@@ -45,7 +45,7 @@ p {
 
 h3 {
     font-size: 23px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 h1.h1logo {
@@ -67,10 +67,12 @@ h1.h1footerlogo {
 
 h4 {
     color: #E65F5C !important;
+    font-size: 28px;
 }
 
 h6 {
     font-size: 20px;
+    font-weight: 400;
 }
 /*Hero Image + Intro*/
 
