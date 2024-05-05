@@ -110,11 +110,11 @@ h6 {
 }
 
 .btn-primary {
-    --bs-btn-bg: #E65F5C;
-    --bs-btn-border-color: #E65F5C;
-    --bs-btn-active-bg: #FF4512;
-    --bs-btn-hover-bg: #FF4512;
-    --bs-btn-hover-border-color: #E65F5C;
+    --bs-btn-bg: #E65F5C !important;
+    --bs-btn-border-color: #E65F5C !important;
+    --bs-btn-active-bg: #FF4512 !important;
+    --bs-btn-hover-bg: #FF4512 !important;
+    --bs-btn-hover-border-color: #E65F5C !important;
 }
 
 .btn-lg {
