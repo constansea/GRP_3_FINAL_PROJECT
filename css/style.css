@@ -69,6 +69,18 @@ h1.h1footerlogo {
     font-weight: 300;
 }
 
+h1.h1aboutheader {
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+h2.h2tagline {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 200;
+}
+
 .h5titles {
     padding: 0px 20px;
     font-size: 32px;
@@ -109,9 +121,7 @@ h6 {
     --bs-btn-font-size: 1.75rem;
 }
 /*Hero Image + Intro*/
-
-
-
+ 
 
 
 /*unique features*/
